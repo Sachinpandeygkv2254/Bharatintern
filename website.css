@@ -1,0 +1,166 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: none;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+input[type="text"], input[type="password"], input[type="button"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+input[type="button"] {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+input[type="button"]:hover {
+    background-color: #45a049;
+}
+
+.admin{
+    position: relative;
+    display: none;
+}
+
+.login-field {
+    text-align: center;
+}
+
+.login-button {
+    display: block;
+    width: 200px;
+    padding: 10px;
+    margin: 10px auto;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-button:hover {
+    background-color: #0056b3;
+}
+
+.login-page{
+    display: none;
+}
+
+.profile{
+    padding-top: 30px;
+    width: 400px;
+    height: 100vh;
+    border-right: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: var(--profile-bg);
+}
+
+.profile-pic{
+    width: 30%;
+    height: 20%;
+    border-radius: 50%;
+    border: black 2px solid;
+}
+
+.data{
+    font-size: larger;
+    font-weight: 600;
+}
+
+.logoutBtn{
+    width: 40%;
+    height: 10%;
+    font-weight: 600;
+    border-radius: 50px;
+    background: var(--logout-bg);
+}
+
+.userData{
+    position : relative;
+    left:400px;
+    width: 948px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.allUserTable{
+    border: 1px solid black;
+    background: rgb(238, 215, 215);
+    width: 800px;
+    padding: 20px 10px;
+    border-radius: 20px;
+}
+
+.tableHead{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin : 5px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.user{
+    display: none;
+}
+.owner{
+    display: none;
+}
+
+.operatorLogin{
+    background: white;
+    padding: 20px 10px;
+    width: 60%;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px auto 0;
+    line-height: 2rem;
+    display: none;
+}
+
+
+#operatorData{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+#map{
+    width: 100%;
+    height: 300px;
+}
+
+#operatorCredentials{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}

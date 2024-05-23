@@ -1,0 +1,7 @@
+:root{
+    --profile-bg: #ADD8E6;
+    --logout-bg: #FF474C;
+    --table-row-bg-even: #d3d3d3;
+    --table-row-bg-odd: rgb(233, 226, 226) ;
+    --login-btn-bg: #5890FF;
+}

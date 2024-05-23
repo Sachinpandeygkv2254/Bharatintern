@@ -1,0 +1,40 @@
+.show{
+    display: block !important;
+}
+
+.hide{
+    display: none !important;
+}
+
+.all-user-row{
+    display: flex ;
+    justify-content: space-evenly;
+    align-items: center;
+    margin : 5px;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.all-user-row:nth-child(even){
+    background: var(--table-row-bg-even);
+}
+
+.all-user-row:nth-child(odd){
+    background: var(--table-row-bg-odd);
+}
+
+.all-user-cell{
+    width: 25%;
+    text-align: center;
+    position: relative;
+}
+
+.all-user-row:hover{
+    border: 1px solid black;
+    background: lightblue;
+}
+
+.all-user-row:active{
+    background: darkcyan;
+}
+
