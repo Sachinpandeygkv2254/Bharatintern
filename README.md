@@ -1,2 +1,2 @@
-# Bharatintern
-I have created clone of Amazon using HTML,CSS
+# MCA Project
+Car Parking Website using React.js
